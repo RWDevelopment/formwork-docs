@@ -3,7 +3,7 @@ $site->findPage('route/to/specific/page')->children();
 ```
 
 ```php
-$subpages = $site->findPage('/page')->children();
+$subpages = $site->findPage('/page')->children();  // get all subpages from '/page'
 
 foreach($subpages as $subpage) {
   echo $subpage->title();
