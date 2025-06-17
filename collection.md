@@ -1,7 +1,8 @@
 # Collection
 
 `
-abstract class AbstractPage public function children(): PageCollection
+abstract class AbstractPage 
+public function children(): PageCollection
 `
 
 ```php
