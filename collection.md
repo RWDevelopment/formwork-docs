@@ -12,7 +12,9 @@ foreach($subpages as $subpage) {
 
 $page->children()->search('search text');
 
-$page->children()->filter('published');
+```php
+$page->children()->filter('published'); returns all subpages where 'published' is 'true'
+```
 
 ```php
 $page->children()->filter('category', 'cars'); // returns all subpages where 'category' is 'cars'
