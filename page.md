@@ -2,7 +2,7 @@
 ### page uri
 
 
-```$page->uri();```
+<pre> $page->uri(); </pre>
 
 returns page uri eg. /blog/first-post
 
