@@ -1,4 +1,6 @@
+```php
 $site->findPage('route/to/specific/page')->children();
+```
 
 $page->children()->search('search text');
 
