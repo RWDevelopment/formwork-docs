@@ -15,6 +15,7 @@ foreach($subpages as $subpage) {
 $page->children()->search('search text');
 
 ### filter collection
+
 ```php
 $page->children()->filter('published'); // returns all subpages where 'published' is 'true'
 ```
