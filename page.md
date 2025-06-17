@@ -8,7 +8,7 @@ returns page body
 
 ### page children
 
-`$page->children();`
+<pre>$page->children();</pre>
 
 returns page sub pages
 
@@ -16,7 +16,7 @@ returns page sub pages
 
 ### page content
 
-`$page->content();`
+<pre>$page->content();</pre>
 
 returns page content in markdown
 
