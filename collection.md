@@ -1,5 +1,5 @@
 ```php
-$site->findPage('route/to/specific/page')->children(); // get all subpages from 'route/to/specific/page'
+$site->findPage('/route/to/specific/page')->children(); // get all subpages from '/route/to/specific/page'
 ```
 
 ```php
