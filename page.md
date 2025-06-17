@@ -1,13 +1,17 @@
 
 ### page uri
 
-`$page->uri();` returns page uri eg. /blog/first-post
+`$page->uri();` returns page uri
+
+eg. /blog/first-post
 
 ---
 
 ### page parent
 
-`$page->parent();` returns page parent object
+`$page->parent();` 
+
+returns page parent object
 
 ---
 
