@@ -13,7 +13,9 @@ foreach($subpages as $subpage) {
 ```
 ### search collection
 
+```php
 $page->children()->search('search text');
+```
 
 ### filter collection
 
