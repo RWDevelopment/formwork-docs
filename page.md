@@ -1,4 +1,7 @@
-$page->uri();
+
+page uri
+
+`$page->uri();`
 
 $page->parent();
 
