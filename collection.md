@@ -14,7 +14,9 @@ $page->children()->search('search text');
 
 $page->children()->filter('published');
 
-$page->children()->filter('category', 'cars');
+```php
+$page->children()->filter('category', 'cars'); // returns all subpages where 'category' is 'cars'
+```
 
 $page->children()->shuffle();
 
