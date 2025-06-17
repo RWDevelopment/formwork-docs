@@ -1,9 +1,9 @@
 
 ### page uri
 
-`$page->uri();` returns page uri
+`$page->uri();` 
 
-eg. /blog/first-post
+returns page uri eg. /blog/first-post
 
 ---
 
