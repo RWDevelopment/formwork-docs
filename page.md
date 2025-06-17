@@ -1,12 +1,12 @@
 
-#### page uri
+### page uri
 
 `$page->uri();` returns page uri eg. /blog/first-post
-
+---
 ### page parent
 
 `$page->parent();` returns page parent object
-
+---
 $page->children();
 
 $page->hasDescendants();
