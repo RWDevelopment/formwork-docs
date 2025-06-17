@@ -2,6 +2,8 @@
 
 `
 abstract class AbstractPage 
+`
+`
 public function children(): PageCollection
 `
 
