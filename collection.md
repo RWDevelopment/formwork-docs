@@ -11,6 +11,7 @@ foreach($subpages as $subpage) {
   echo $subpage->title();
 }
 ```
+### search collection
 
 $page->children()->search('search text');
 
