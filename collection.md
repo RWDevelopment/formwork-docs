@@ -1,11 +1,7 @@
 # Collection
 
-`
-abstract class AbstractPage 
-`
-`
-public function children(): PageCollection
-`
+[public function children()](https://github.com/getformwork/formwork/blob/1.x/formwork/Core/AbstractPage.php#L232)
+
 
 ```php
 $site->findPage('/route/to/specific/page')->children(); // get all subpages from '/route/to/specific/page'
