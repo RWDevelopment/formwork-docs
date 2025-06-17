@@ -64,7 +64,7 @@ $page->hasSiblings();
 
 $page->siblings();
 
-
+$page->absoluteUri()
 
 $page->summary();
 
