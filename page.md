@@ -1,6 +1,12 @@
+### page body
+
+<pre> $page->body(); </pre>
+
+returns page body
+
+---
 
 ### page uri
-
 
 <pre> $page->uri(); </pre>
 
@@ -26,7 +32,7 @@ $page->hasSiblings();
 
 $page->siblings();
 
-$page->body();
+
 
 $page->summary();
 
