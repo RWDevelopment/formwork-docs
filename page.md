@@ -12,6 +12,12 @@ returns page body
 
 returns page sub pages
 
+<pre>
+  <?php foreach($page->children() as $page): ?>
+    <h1><?= $page->title() ?></h1>
+  <?php endforeach; ?>
+</pre>
+
 ---
 
 ### page content
