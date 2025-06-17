@@ -1,8 +1,8 @@
 
 ### page uri
 
-<pre>
-`$page->uri();` </pre>
+
+```$page->uri();```
 
 returns page uri eg. /blog/first-post
 
