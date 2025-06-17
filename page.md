@@ -1,6 +1,8 @@
 ### page body
 
-<pre> $page->body(); </pre>
+```php
+$page->body();
+```
 
 returns page body
 
@@ -8,21 +10,25 @@ returns page body
 
 ### page children
 
-<pre>$page->children();</pre>
+```php
+$page->children();
+```
 
 returns page sub pages
 
-<pre>
-  <?php foreach($page->children() as $page): ?>
-    <h1><?= $page->title() ?></h1>
-  <?php endforeach; ?>
-</pre>
+```php
+<?php foreach($page->children() as $page): ?>
+  <h1><?= $page->title() ?></h1>
+<?php endforeach; ?>
+```
 
 ---
 
 ### page content
 
-<pre>$page->content();</pre>
+```php
+$page->content();
+```
 
 returns page content in markdown
 
@@ -30,7 +36,9 @@ returns page content in markdown
 
 ### page uri
 
-<pre> $page->uri(); </pre>
+```php
+$page->uri();
+```
 
 returns page uri eg. /blog/first-post
 
