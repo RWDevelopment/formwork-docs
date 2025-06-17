@@ -13,7 +13,7 @@ foreach($subpages as $subpage) {
 $page->children()->search('search text');
 
 ```php
-$page->children()->filter('published'); //returns all subpages where 'published' is 'true'
+$page->children()->filter('published'); // returns all subpages where 'published' is 'true'
 ```
 
 ```php
