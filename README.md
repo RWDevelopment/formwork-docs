@@ -1,1 +1,1 @@
-docs and snippets for [Formwork CMS](https://github.com/getformwork/formwork)
+simple docs and snippets for [Formwork CMS](https://github.com/getformwork/formwork)
