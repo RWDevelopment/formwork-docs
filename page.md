@@ -46,7 +46,9 @@ returns page uri eg. /blog/first-post
 
 ### page parent
 
-`$page->parent();` 
+```php
+$page->parent();
+``` 
 
 returns page parent object
 
