@@ -6,6 +6,14 @@ returns page body
 
 ---
 
+### page children
+
+`$page->children();`
+
+returns page sub pages
+
+---
+
 ### page uri
 
 <pre> $page->uri(); </pre>
@@ -22,7 +30,7 @@ returns page parent object
 
 ---
 
-$page->children();
+
 
 $page->hasDescendants();
 
