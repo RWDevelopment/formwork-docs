@@ -14,6 +14,14 @@ returns page sub pages
 
 ---
 
+### page content
+
+`$page->content();`
+
+returns page content in markdown
+
+---
+
 ### page uri
 
 <pre> $page->uri(); </pre>
@@ -44,6 +52,6 @@ $page->siblings();
 
 $page->summary();
 
-$page->content();
+
 
 $page->rawContent();
