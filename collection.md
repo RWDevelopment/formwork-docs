@@ -18,6 +18,8 @@ $page->children()->filter('category', 'cars');
 
 $page->children()->shuffle();
 
+$page->children()->sort();
+
 $page->children()->slice( 0, 5 );
 
 $page->descendants();
