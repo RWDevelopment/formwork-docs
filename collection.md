@@ -14,7 +14,7 @@ foreach($subpages as $subpage) {
 ### search collection
 
 ```php
-$page->children()->search('search text');
+$page->children()->search('search text'); // returns all subpages where page contains 'search text' in title or summary ora tags or content
 ```
 
 ### filter collection
