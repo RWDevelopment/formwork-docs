@@ -29,7 +29,9 @@ $page->children()->filter('published'); // returns all subpages where 'published
 $page->children()->filter('category', 'cars'); // returns all subpages where 'category' is 'cars'
 ```
 
-$page->children()->shuffle();
+```php
+$page->children()->shuffle(); // shuffle subpages
+```
 
 $page->children()->sort();
 
