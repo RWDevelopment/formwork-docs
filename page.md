@@ -1,7 +1,7 @@
 
 page uri
 
-`$page->uri();`
+`$page->uri();` returns page uri eg. /blog/first-post
 
 $page->parent();
 
