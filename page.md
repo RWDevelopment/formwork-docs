@@ -3,7 +3,9 @@
 
 `$page->uri();` returns page uri eg. /blog/first-post
 
-$page->parent();
+### page parent
+
+`$page->parent();` returns page parent object
 
 $page->children();
 
