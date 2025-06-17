@@ -13,7 +13,7 @@ foreach($subpages as $subpage) {
 ```
 ### search collection
 
-returns all subpages where subpage contains 'search text' in title or summary or tags or content
+returns all subpages from page where subpage contains 'search text' in title or summary or tags or content
 
 ```php
 $page->children()->search('search text');
